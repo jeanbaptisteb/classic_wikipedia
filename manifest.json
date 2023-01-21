@@ -1,24 +1,23 @@
 {
   "manifest_version": 2,
   "name": "Classic mode for Wikipedia",
-  "version": "1.1",
+  "version": "1.2",
   "browser_specific_settings": {
     "gecko": {
       "strict_min_version": "52.0",      
+            "id": "{231c59cf-2c20-4290-b421-b351d769ff4b}"
     }
   },
   "description": "Get the classic Wikipedia interface back, pre-January 2023.",
   "icons": {
     "48": "back.svg"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*.wikipedia.org/*"
-      ],
-      "js": [
-        "Classic_mode_Wikipedia.js"
-      ]
-    }
-  ]
+   "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.wikipedia.org/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
