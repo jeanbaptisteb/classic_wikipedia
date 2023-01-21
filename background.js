@@ -1,8 +1,13 @@
-let pattern = "https://*.wikipedia.org/*";
 var field = 'useskin';
 var value = "vector";
+const excludedUrls = [/www[.]wikipedia[.]org/];
+
 
 function redirect(requestDetails) {
+  var isMatch = excludedUrls.some(function(rx) { return rx.test(requestDetails.url); });
+  if (isMatch) {
+		return requestDetails.url;		
+  }
   if(requestDetails.url.indexOf('?' + field + '=' + value) != -1) {		
 		return requestDetails.url;		
 	} else if(requestDetails.url.indexOf('&' + field + '=' + value) != -1) {
@@ -18,6 +23,6 @@ function redirect(requestDetails) {
 
 browser.webRequest.onBeforeRequest.addListener(
   redirect,
-  {urls:[pattern], types:["main_frame"]},
+  {urls:["*://*.wikipedia.org/*"], types:["main_frame"]},
   ["blocking"]
 );
