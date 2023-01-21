@@ -1,7 +1,7 @@
 # Classic Wikipedia
 A Firefox extension to get the classic Wikipedia interface back, pre-January 2023. 
 
-https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/
+The add-on can be installed from the following address: https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/
 
 # Bug reports
 For any bug report or question, please add a request here https://github.com/jeanbaptisteb/classic_Wikipedia/issues or write an e-mail to classic.mode.wikipedia /at/ gmail.com
