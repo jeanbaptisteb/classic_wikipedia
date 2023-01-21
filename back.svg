@@ -11,7 +11,34 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+    >
+<metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:dcterms="http://purl.org/dc/terms/" 
+          xmlns:dc11="http://purl.org/dc/elements/1.1/"
+          xmlns:cc="http://creativecommons.org/ns#" 
+          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+		   
+    <rdf:RDF>
+    <cc:Work rdf:about="">
+      <dc11:format>image/svg+xml</dc11:format>
+      <dc11:type  rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      <cc:license rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"  />
+      <cc:attributionName>Rebbj, and Google Inc. (for the original icon this one is derived from)</cc:attributionName>
+      <cc:attributionURL  rdf:resource="https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/" />
+	  <dcterms:isVersionOf rdf:resource="https://commons.wikimedia.org/wiki/File:Ic_settings_backup_restore_48px.svg" />
+    </cc:Work>
+    <cc:License    rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+      <cc:permits  rdf:resource="http://creativecommons.org/ns#Reproduction" />
+      <cc:permits  rdf:resource="http://creativecommons.org/ns#Distribution" />
+      <cc:permits  rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+      <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+      <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+    </cc:License>   
+  </rdf:RDF>
+</metadata>
   <defs
      id="defs10">
     <linearGradient
