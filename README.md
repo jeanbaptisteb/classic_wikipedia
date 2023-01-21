@@ -10,13 +10,13 @@ For any bug report or question, please add a request here https://github.com/jea
 The extension automatically appends a `useskin=vector` parameter to any Wikipedia page URL you visit, and automatically reloads the page. For example, if you visit https://en.wikipedia.org/wiki/Logistic_regression, you'll be automatically redirected to https://en.wikipedia.org/wiki/Logistic_regression?useskin=vector, which will show you the page with the classic Wikipedia interface.
 
 # Privacy
-You don't need to have a Wikipedia account to use this add-on. The add-on does not retrieve any information about you, it just automatically redirects you to the classic version of Wikipedia pages, nothing more, nothing less. 
+You don't need to have a Wikipedia account to use this add-on. The add-on does not retrieve any information about you and never will. It just automatically redirects you to the classic version of Wikipedia pages, nothing more, nothing less. 
 
 # Compatibility
 This add-on is unlikely to be compatible with Firefox versions < 52.0.
 
 # Roadmap
-I do not plan to add additional features to this extension, but will fix reported bugs. Pull requests are more than welcome relatively to that.
+I do not plan to add additional features to this extension, but will fix reported bugs if possible. Pull requests are more than welcome relatively to that.
 
 # License
 The code is licensed under the [ Mozilla Public License 2.0 ](https://www.mozilla.org/en-US/MPL/2.0/).
