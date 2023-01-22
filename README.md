@@ -30,7 +30,7 @@ For more details on how the add-on works, you can simply check the source code w
 You don't need to have a Wikipedia account to use this add-on. The add-on does not retrieve any information about you and never will. It just automatically redirects you to the classic version of Wikipedia pages with as little friction as possible. Nothing more, nothing less. 
 
 ## Compatibility
-This add-on is unlikely to be compatible with Firefox versions < 52.0.
+This add-on is compatible with Firefox versions > 52.0.
 
 ## Roadmap
 I will investigate reported bugs and fix them if possible. Pull requests are more than welcome relatively to that. 
