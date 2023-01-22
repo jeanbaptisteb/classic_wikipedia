@@ -5,9 +5,10 @@ The add-on can be installed from the following address: https://addons.mozilla.o
 
 # Bug reports
 For any bug report or question, you can, alternatively:
-- report a bug here: https://github.com/jeanbaptisteb/classic_Wikipedia/issues 
 - write an e-mail to classic.mode.wikipedia /at/ gmail.com 
+- report a bug here: https://github.com/jeanbaptisteb/classic_Wikipedia/issues 
 - write a review on https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/.
+- write a comment under the Mozilla discourse dedicated thread: https://discourse.mozilla.org/t/support-classic-mode-for-wikipedia/110245/2
 
 When reporting a bug, mention if possible the page address you were visting when you encountered the bug, what version of Firefox you were using, what other add-ons are installed, and if the problem happens systematically or only sometimes.
 
