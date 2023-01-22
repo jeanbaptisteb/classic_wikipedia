@@ -4,7 +4,9 @@ A Firefox add-on to get the classic Wikipedia interface back, pre-January 2023.
 The add-on can be installed from the following address: https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/
 
 # Bug reports
-For any bug report or question, please add a request here https://github.com/jeanbaptisteb/classic_Wikipedia/issues or write an e-mail to classic.mode.wikipedia /at/ gmail.com
+For any bug report or question, please add a request here https://github.com/jeanbaptisteb/classic_Wikipedia/issues, write an e-mail to classic.mode.wikipedia /at/ gmail.com, or write a review on https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/. 
+
+When reporting a bug, mention if possible the page you were visting when you encountered the bug, what version of Firefox you were using, what other add-ons are installed, and if the problem happens systematically or only sometimes.
 
 # Technical details
 The extension automatically appends a `useskin=vector` parameter to any Wikipedia page URL you request, and automatically loads this new URL. For example, if you request https://en.wikipedia.org/wiki/Logistic_regression, you'll automatically land on https://en.wikipedia.org/wiki/Logistic_regression?useskin=vector, which will show you the page with the classic Wikipedia interface (a.k.a. the "[legacy Vector skin](https://www.mediawiki.org/wiki/Skin:Vector)", in Wikipedia jargon). 
