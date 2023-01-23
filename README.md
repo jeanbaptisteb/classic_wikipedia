@@ -46,8 +46,8 @@ The [extension icon](https://github.com/jeanbaptisteb/classic_Wikipedia/blob/mai
 
 ## Alternatives
 If you're not satisfied with this add-on, there are several alternatives out there for Firefox:
-- **[Wikipedia Vector Skin](https://addons.mozilla.org/en-US/firefox/addon/wikipedia-vector-skin/)** for Firefox. It has a larger scope than *Classic mode for Wikipedia* (i.e. it also applies interface changes to mediawiki.org websites). Other than that, it offers the same features, using a slightly different code. I highly recommend it in case you're not satisfied with  *Classic mode for Wikipedia*. 
+- **[Wikipedia Vector Skin](https://addons.mozilla.org/en-US/firefox/addon/wikipedia-vector-skin/)** for Firefox. It offers similar features than *Classic mode for Wikipedia*. I highly recommend it in case you're not satisfied with  *Classic mode for Wikipedia*.
 - [wikivector](https://addons.mozilla.org/en-US/firefox/addon/wikivector/) for Firefox, a still experimental add-on. I haven't tested it,  but its code seems to use a less efficient method than the *Wikipedia Vector Skin* add-on.
 - [legacy skin wiki](https://addons.mozilla.org/en-US/firefox/addon/legacy-skin-wiki/) for Firefox. I haven't tested it, but same caveat than for the *wikivector* add-on mentioned above.
 
-**For Chrome users**, it seems that many extensions offer the same kind of features. **[Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb)** seems promising, even though I haven't tested it ([source code here](https://github.com/adlerzei/old-wiki))
+**For Chrome users**, it seems that many extensions offer the same kind of features. **[Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb)** seems promising and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki))
