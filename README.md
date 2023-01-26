@@ -47,5 +47,5 @@ The [extension icon](https://github.com/jeanbaptisteb/classic_Wikipedia/blob/mai
 ## Alternatives
 Here are two excellent alternatives I recommend, if you want to see if the grass is greener on the other side:
 
-- **For Firefox users**, [Wikipedia Vector Skin](https://addons.mozilla.org/firefox/addon/wikipedia-vector-skin/). It offers features similar to *Classic mode for Wikipedia*.
-- **For Chrome users**, [Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb) is nice and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki))
+- **For Firefox users**, [Wikipedia Vector Skin](https://addons.mozilla.org/firefox/addon/wikipedia-vector-skin/). This one has been developed pretty much at the same time than *Classic mode for Wikipedia* and offers similar features. It ended up being more popular for some reason (that is, the developer is probably a more heavy user of social media than I am). Neat code, and the developer seems to answer quickly to bug reports, so I can only recommend it warmly.
+- **For Chrome users**, [Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb) is nice and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki)). Nice code, and the developer answered very quickly to bug reports/feature requests.
