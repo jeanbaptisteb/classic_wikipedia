@@ -1,7 +1,7 @@
 # Classic mode for Wikipedia
-A Firefox add-on to get the classic Wikipedia interface back, pre-January 2023. 
+A Firefox add-on to get the classic Wikipedia interface and layout back, pre-January 2023. 
 
-The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki. It leaves https://nostalgia.wikipedia.org untouched.
+The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki (others will come). It leaves https://nostalgia.wikipedia.org untouched.
 
 The add-on can be installed from the following address: **https://addons.mozilla.org/firefox/addon/classic-wikipedia/**
 
