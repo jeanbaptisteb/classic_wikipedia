@@ -5,7 +5,7 @@ The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktiona
 
 The add-on can be installed from the following address: **https://addons.mozilla.org/firefox/addon/classic-wikipedia/**
 
-Feel free write a review on https://addons.mozilla.org/firefox/addon/classic-wikipedia/ if you find this add-on useful or if you encountered problems using it.
+Feel free write a review on https://addons.mozilla.org/firefox/addon/classic-wikipedia/ if you find this add-on useful or, God forbid, if you encountered problems using it.
 
 # Table of contents
 * [Bug reports and feature requests](#bug-reports-and-feature-requests)
