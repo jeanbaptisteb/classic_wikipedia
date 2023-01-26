@@ -1,11 +1,9 @@
 # Classic mode for Wikipedia
 <a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">Classic mode for Wikipedia</a> is a Firefox add-on to get the classic Wikipedia interface and layout back, pre-January 2023. **It is free, open-source, without advertisement, and respects your privacy -and it will stay this way**. 
 
-The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki (more will come). It leaves <a href="https://nostalgia.wikipedia.org">Nostalgia Wikipedia</a> untouched. 
+The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki (more will come). It leaves <a href="https://nostalgia.wikipedia.org">Nostalgia Wikipedia</a> untouched. The add-on can be installed from  **<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">here</a>**. 
 
-The add-on can be installed from  **<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">here</a>**. 
-
-Feel free write a review on the Mozilla add-on page if you find it useful or, God forbid, if you encountered problems using it.
+Feel free to write a review on the Mozilla add-on page if you find it useful or, God forbid, if you encountered problems using it.
 
 # Overview
 * [Bug reports and feature requests](#bug-reports-and-feature-requests)
