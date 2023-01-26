@@ -37,7 +37,7 @@ This add-on is compatible with Firefox versions > 52.0.
 ## Roadmap
 I will investigate reported bugs and fix them if possible. Pull requests are more than welcome relatively to that. 
 
-I may consider adding additional features, if they keep the add-on simple and lightweight, and do not require too much maintenance.
+More features will come progressively, and might require some additional permissions as they'll probably involve saving preferences.
 
 ## License
 The code is licensed under the [ Mozilla Public License 2.0 ](https://www.mozilla.org/en-US/MPL/2.0/).
@@ -45,9 +45,7 @@ The code is licensed under the [ Mozilla Public License 2.0 ](https://www.mozill
 The [extension icon](https://github.com/jeanbaptisteb/classic_Wikipedia/blob/main/back.svg) is licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). This icon is a derivate work from https://commons.wikimedia.org/wiki/File:Ic_settings_backup_restore_48px.svg (author: Google Inc.)
 
 ## Alternatives
-If you're not satisfied with this add-on, there are several alternatives out there for Firefox:
-- **[Wikipedia Vector Skin](https://addons.mozilla.org/firefox/addon/wikipedia-vector-skin/)** for Firefox. It offers similar features than *Classic mode for Wikipedia*. I highly recommend it in case you're not satisfied with  *Classic mode for Wikipedia*.
-- [wikivector](https://addons.mozilla.org/firefox/addon/wikivector/) for Firefox, a still experimental add-on. I haven't tested it,  but its code seems to use a less efficient method than the *Wikipedia Vector Skin* add-on.
-- [legacy skin wiki](https://addons.mozilla.org/firefox/addon/legacy-skin-wiki/) for Firefox. I haven't tested it, but same caveat than for the *wikivector* add-on mentioned above.
+Here are two excellent alternatives I recommend, if you want to see if the grass is greener on the other side:
 
-**For Chrome users**, it seems that many extensions offer the same kind of features. **[Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb)** seems promising and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki))
+- **For Firefox users**, [Wikipedia Vector Skin](https://addons.mozilla.org/firefox/addon/wikipedia-vector-skin/). It offers features similar to *Classic mode for Wikipedia*.
+- **For Chrome users**, [Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb) is nice and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki))
