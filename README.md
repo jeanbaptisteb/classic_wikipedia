@@ -1,13 +1,13 @@
 # Classic mode for Wikipedia
-<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">Classic mode for Wikipedia</a> is a Firefox add-on to get the classic Wikipedia interface and layout back, pre-January 2023. 
+<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">Classic mode for Wikipedia</a> is a Firefox add-on to get the classic Wikipedia interface and layout back, pre-January 2023. **It is free, open-source, without advertisement, and respects your privacy -and it will stay this way**. 
 
-The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki (more will come). It leaves <a href="https://nostalgia.wikipedia.org">Nostalgia Wikipedia</a> untouched.
+The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki (more will come). It leaves <a href="https://nostalgia.wikipedia.org">Nostalgia Wikipedia</a> untouched. 
 
-The add-on can be installed from the following address: **<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">https://addons.mozilla.org/firefox/addon/classic-wikipedia/</a>**
+The add-on can be installed from  **<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">here</a>**. 
 
-Feel free write a review on the Mozilla add-on page if you find this add-on useful or, God forbid, if you encountered problems using it.
+Feel free write a review on the Mozilla add-on page if you find it useful or, God forbid, if you encountered problems using it.
 
-# Table of contents
+# Overview
 * [Bug reports and feature requests](#bug-reports-and-feature-requests)
 * [Technical details](#technical-details)
 * [Privacy](#privacy)
@@ -15,6 +15,7 @@ Feel free write a review on the Mozilla add-on page if you find this add-on usef
 * [Roadmap](#roadmap)
 * [License](#license)
 * [Alternatives](#alternatives)
+* [Author info](#author-info)
 ## Bug reports and feature requests
 For any bug report, feature request, or question, you can, alternatively:
 - write me an e-mail at classic.mode.wikipedia /at/ gmail.com 
@@ -42,10 +43,18 @@ More features will come progressively, and might require some additional permiss
 ## License
 The code is licensed under the [ Mozilla Public License 2.0 ](https://www.mozilla.org/en-US/MPL/2.0/).
 
-The [extension icon](https://github.com/jeanbaptisteb/classic_Wikipedia/blob/main/back.svg) is licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). This icon is a derivate work from https://commons.wikimedia.org/wiki/File:Ic_settings_backup_restore_48px.svg (author: Google Inc.)
+The [extension icon](https://github.com/jeanbaptisteb/classic_Wikipedia/blob/main/back.svg) is licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). This icon is a derivate work from https://commons.wikimedia.org/wiki/File:Ic_settings_backup_restore_48px.svg (author: Google Inc.).
+ 
 
 ## Alternatives
-Here are two excellent alternative add-ons I recommend, if you want to see if the grass is greener on the other side:
+Here are two excellent alternative add-ons that do more or less the same thing than *Classic mode for Wikipedia*, if you want to see if the grass is greener on the other side:
 
-- **For Firefox users**, [Wikipedia Vector Skin](https://addons.mozilla.org/firefox/addon/wikipedia-vector-skin/). This one has been developed pretty much at the same time than *Classic mode for Wikipedia* and offers similar features. It ended up being more popular for some reason (that is, the developer is probably a more heavy user of social media than I am). Neat code, and the developer seems to answer quickly to bug reports, so I can only recommend it warmly.
-- **For Chrome users**, [Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb) is nice and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki)). Nice code, and the developer answered very quickly to bug reports/feature requests.
+- **For Firefox users**, [Wikipedia Vector Skin](https://addons.mozilla.org/firefox/addon/wikipedia-vector-skin/). This one has been developed pretty much at the same time than *Classic mode for Wikipedia* and offers similar features. It ended up being more popular for some reason (that is, the developer is probably a more frequent user of social media than I am). Neat code, and the developer seems to answer quickly to bug reports, so I can only recommend it warmly. Nice job!
+- **For Chrome users**, [Old Wiki](https://chrome.google.com/webstore/detail/old-wiki/cphagceemhgokfclmbnkpfkmchbfnclb) is a very nice extension and works well as far as I've tested it ([source code here](https://github.com/adlerzei/old-wiki)). Nice and clean code, and the developer seems to answer quickly to bug reports/feature requests.
+
+## Author info
+
+
+This add-on is a personal initiative, developed during my free time. I am not affiliated in any way to the Wikimedia Foundation, even though I am a sporadic anonymous contributor to Wikipedia.
+
+I also have a couple of other free and open-source projects hosted on Github, that you can find [here](https://github.com/jeanbaptisteb/). They are generally unrelated to Wikipedia or other Wikimedia projects, and are more on the side of research and publishing. But who knows, you might be interested!
