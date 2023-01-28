@@ -1,29 +1,62 @@
-var field = 'useskin';
+var field = "useskin";
 var value = "vector";
-//let reMobile = /([.]m[.]|^m[.])/ //something to use for future add-on versions
-const excludedUrls = [/(www|nostalgia|[.]m)[.]wikipedia[.]org/, /www[.]wiktionary[.]org/,
-/[:]\/\/(.*[.]m[.]|m[.])/, /mobileaction=toggle_view_mobile/]
+let reMobile = /([.]m[.]|^m[.])/ 
+let origin = null;
+var urls_scope = ["*://*.wikipedia.org/*", "*://*.wiktionary.org/*", "*://commons.wikimedia.org/*",
+  "*://*.wikisource.org/*",  "*://*.wikidata.org/*", "*://*.mediawiki.org/*"
 
-function redirect(requestDetails) {	
-  currentUrl = requestDetails.url;  
-  var url = new URL(currentUrl);  	  
-  var isMatch = excludedUrls.some(function(rx) { return rx.test(currentUrl); });
-  if (isMatch) {	 		
-		return currentUrl;			  
-  }	
-  if (url.searchParams.has(field)) {		 
-		return currentUrl;		
-  } else {		
-		url.searchParams.set(field, value);		
+   ];
+var excludedUrls = [/(www|nostalgia|[.]m)[.]wikipedia[.]org/, /www[.]wiktionary[.]org/, 
+/(.*[.]m[.]|m[.])/, 
+/.*[.]m[.]wikimedia[.]org/,
+/commons[.]m[.]wikimedia[.]org/,
+/mobileaction=toggle_view_mobile/
+] 
+function mobileRedirect(requestDetails) {
+	currentUrl = requestDetails.url;
+	var url = new URL(currentUrl);  	
+	var isMatch = excludedUrls.some(function(rx) { return rx.test(url.hostname); });	
+	try {
+	origin = requestDetails.originUrl;
+	} catch(error) {
+
+	return currentUrl;
+	}
+	
+	if ((origin != null) && (origin.includes("useskin=vector")) && (reMobile.test(url.hostname))){
+		
+		url.searchParams.delete(field);
+		url.searchParams.delete("mobileaction");
+
 		return {
-			redirectUrl: url.toString()
-		}; 
+		redirectUrl: url.toString()
+		};
+		}
+
+}
+function redirect(requestDetails) {
+  currentUrl = requestDetails.url;    
+  var url = new URL(currentUrl);    
+  var isMatch = excludedUrls.some(function(rx) { return rx.test(url.hostname); });
+  if (isMatch) {
+	return currentUrl;  
+  }
+  if (url.searchParams.has(field)) {
+	return currentUrl;
+  } else {
+	url.searchParams.set(field, value);
+	return {
+	redirectUrl: url.toString()
+	};
   }
 }
-
 browser.webRequest.onBeforeRequest.addListener(
   redirect,
-  {urls:["*://*.wikipedia.org/*", "*://*.wiktionary.org/*", "*://commons.wikimedia.org/*", 
-  "*://*.wikisource.org/*",  "*://*.wikidata.org/*", "*://*.mediawiki.org/*" ], types:["main_frame"]},
+  {urls:urls_scope, types:["main_frame"]},
+  ["blocking"]
+);
+browser.webRequest.onHeadersReceived.addListener(
+  mobileRedirect,
+  {urls:urls_scope, types:["main_frame"]},
   ["blocking"]
 );

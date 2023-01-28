@@ -1,28 +1,28 @@
 {
   "manifest_version": 2,
   "name": "Classic mode for Wikipedia",
-  "version": "1.4",
+  "version": "1.5",
   "browser_specific_settings": {
     "gecko": {
       "strict_min_version": "52.0",
       "id": "{231c59cf-2c20-4290-b421-b351d769ff4b}"
     }
   },
-  "description": "Get the classic Wikipedia interface back, pre-January 2023. Also works for some other popular Wikimedia projects (Wikicommons, Wiktionary, and more).",
+  "description": "Get the old & classic Wikipedia layout back, pre-January 2023. Also works with some other popular Wikimedia projects (Wikimedia Commons, Wiktionary, Wikisource, and more).",
+  "homepage_url": "https://jeanbaptisteb.github.io/classic_wikipedia/",
   "icons": {
     "48": "back.svg"
   },
   "permissions": [
-  "webRequest",
-  "webRequestBlocking",
-  "*://*.wikipedia.org/*",
-  "*://commons.wikimedia.org/*", 
-  "*://*.wiktionary.org/*",
-  "*://*.wikisource.org/*", 
-  "*://*.wikidata.org/*",
-  "*://*.mediawiki.org/*"
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.wikipedia.org/*",
+    "*://commons.wikimedia.org/*",	
+    "*://*.wiktionary.org/*",
+    "*://*.wikisource.org/*",
+    "*://*.wikidata.org/*",
+    "*://*.mediawiki.org/*"
   ],
-
   "background": {
     "scripts": [
       "background.js"

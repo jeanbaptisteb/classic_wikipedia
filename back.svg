@@ -1,121 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="48"
-   height="48"
-   viewBox="0 0 48 48"
-   version="1.1"
-   id="svg6"
-   sodipodi:docname="back.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-    >
-<metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:dcterms="http://purl.org/dc/terms/" 
-          xmlns:dc11="http://purl.org/dc/elements/1.1/"
-          xmlns:cc="http://creativecommons.org/ns#" 
-          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
-		   
-    <rdf:RDF>
-    <cc:Work rdf:about="">
-      <dc11:format>image/svg+xml</dc11:format>
-      <dc11:type  rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-      <cc:license rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"  />
-      <cc:attributionName>Rebbj, and Google Inc. (for the original icon this one is derived from)</cc:attributionName>
-      <cc:attributionURL  rdf:resource="https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/" />
-	  <dcterms:isVersionOf rdf:resource="https://commons.wikimedia.org/wiki/File:Ic_settings_backup_restore_48px.svg" />
-    </cc:Work>
-    <cc:License    rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
-      <cc:permits  rdf:resource="http://creativecommons.org/ns#Reproduction" />
-      <cc:permits  rdf:resource="http://creativecommons.org/ns#Distribution" />
-      <cc:permits  rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
-      <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
-      <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
-    </cc:License>   
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg6" width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata xmlns:cc="http://creativecommons.org/ns#" xmlns:dc11="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc11:format>image/svg+xml</dc11:format>
+    <dc11:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <cc:license rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+    <cc:attributionName>Rebbj, and Google Inc. (for the original icon this one is derived from)</cc:attributionName>
+    <cc:attributionURL rdf:resource="https://addons.mozilla.org/fr/firefox/addon/classic-wikipedia/"/>
+    <dcterms:isVersionOf rdf:resource="https://commons.wikimedia.org/wiki/File:Ic_settings_backup_restore_48px.svg"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
   </rdf:RDF>
-</metadata>
-  <defs
-     id="defs10">
-    <linearGradient
-       id="a">
-      <stop
-         offset="0"
-         stop-color="#f4f4f4"
-         id="stop11807" />
-      <stop
-         offset="1"
-         stop-color="#bbb"
-         id="stop11809" />
-    </linearGradient>
-    <linearGradient
-       xlink:href="#a"
-       id="b"
-       x1="47.76152"
-       x2="10.598763"
-       y1="18.860083"
-       y2="26.461481"
-       gradientTransform="translate(-6.982678,2.828423)"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
-  <sodipodi:namedview
-     id="namedview8"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="6.5416667"
-     inkscape:cx="11.923567"
-     inkscape:cy="7.4140127"
-     inkscape:window-width="1600"
-     inkscape:window-height="821"
-     inkscape:window-x="1431"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
-  <path
-     d="M0 0h48v48h-48z"
-     fill="none"
-     id="path2" />
-  <path
-     d="m 29.834395,22.77707 c 0,-2.360149 -1.90727,-4.271762 -4.262057,-4.271762 -2.354786,0 -4.262056,1.911613 -4.262056,4.271762 0,2.360149 1.90727,4.271762 4.262056,4.271762 2.354787,0 4.262057,-1.911613 4.262057,-4.271762 z M 25.572338,3.5541401 c -10.59121,0 -19.1792534,8.6076009 -19.1792534,19.2229299 H 0 l 8.5241128,8.543524 8.5241132,-8.543524 h -6.393085 c 0,-8.25518 6.680773,-14.9511677 14.917197,-14.9511677 8.236425,0 14.917198,6.6959877 14.917198,14.9511677 0,8.255181 -6.680773,14.951168 -14.917198,14.951168 -3.228507,0 -6.201292,-1.035903 -8.651974,-2.787325 l -3.015405,3.064989 C 17.144122,40.504883 21.18242,42 25.572338,42 c 10.591211,0 19.179254,-8.607601 19.179254,-19.22293 0,-10.615329 -8.588043,-19.2229299 -19.179254,-19.2229299 z"
-     id="path4"
-     style="stroke-width:1.06673" />
-  <rect
-     style="fill:#ffffff;stroke-width:1.33058"
-     id="rect8463"
-     width="15.745223"
-     height="15.057324"
-     x="18.038216"
-     y="15.592357" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="Layer 1" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2">
-    <g
-       id="g11832"
-       transform="matrix(0.51229937,0,0,0.65474139,15.584283,13.370188)" />
-  </g>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="16.038216"
-     y="30.649681"
-     id="text16334"><tspan
-       sodipodi:role="line"
-       id="tspan16332"
-       x="16.038216"
-       y="30.649681"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">W</tspan></text>
+ </metadata>
+ <path id="path2" d="m0 0h48v48h-48z" fill="none"/>
+ <path id="path4" d="m29.834 22.777c0-2.3601-1.9073-4.2718-4.2621-4.2718-2.3548 0-4.2621 1.9116-4.2621 4.2718s1.9073 4.2718 4.2621 4.2718c2.3548 0 4.2621-1.9116 4.2621-4.2718zm-4.2621-19.223c-10.591 0-19.179 8.6076-19.179 19.223h-6.3931l8.5241 8.5435 8.5241-8.5435h-6.3931c0-8.2552 6.6808-14.951 14.917-14.951 8.2364 0 14.917 6.696 14.917 14.951 0 8.2552-6.6808 14.951-14.917 14.951-3.2285 0-6.2013-1.0359-8.652-2.7873l-3.0154 3.065c3.2392 2.499 7.2775 3.9941 11.667 3.9941 10.591 0 19.179-8.6076 19.179-19.223s-8.588-19.223-19.179-19.223z" stroke-width="1.0667"/>
+ <rect id="rect8463" x="18.038" y="15.592" width="15.745" height="15.057" fill="#fff" stroke-width="1.3306"/>
+ <g id="layer2"></g>
+ <text id="text16334" x="16.038216" y="30.649681" fill="#000000" font-family="sans-serif" font-size="21.333px" letter-spacing="0px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan id="tspan16332" x="16.038216" y="30.649681" font-family="sans-serif" font-size="21.333px" font-weight="bold">W</tspan></text>
 </svg>
