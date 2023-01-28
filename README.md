@@ -21,9 +21,11 @@ For any bug report, feature request, or question, you can, alternatively:
 - write a comment under the Mozilla discourse <a href="https://discourse.mozilla.org/t/support-classic-mode-for-wikipedia/110245/2">dedicated thread</a>.
 
 ## Technical details
-The extension automatically appends a `useskin=vector` parameter to any Wikipedia page URL you request, and automatically loads this new URL. For example, if you request https://en.wikipedia.org/wiki/Logistic_regression, you'll automatically land on https://en.wikipedia.org/wiki/Logistic_regression?useskin=vector, which will show you the page with the classic Wikipedia interface (a.k.a. the "[legacy Vector skin](https://www.mediawiki.org/wiki/Skin:Vector)", in Wikipedia jargon). 
+The extension automatically appends a `useskin=vector` parameter to any Wikipedia page URL you request, and automatically loads this new URL.
 
-The add-on voluntarily won't work with Nostalgia Wikipedia, and voluntarily won't work either if you request the mobile layout of a Wikipedia page.
+For example, if you request https://en.wikipedia.org/wiki/Logistic_regression, you'll automatically land on https://en.wikipedia.org/wiki/Logistic_regression?useskin=vector, which will show you the page with the classic Wikipedia interface (a.k.a. the "[legacy Vector skin](https://www.mediawiki.org/wiki/Skin:Vector)", in Wikipedia jargon). 
+
+ The only exceptions to that are Nostalgia Wikipedia, or if you explicitly request another layout by changing the value in `useskin=<value>`, or if you request explicitly to see the mobile version of a page (e.g. https://en.m.wikipedia.org/wiki/Logistic_regression).
 
 For more details on how the add-on works, you can simply check the source code which is publicly available. Alternatively, you can ask for additional information [here](https://github.com/jeanbaptisteb/classic_Wikipedia/issues) or by writing an e-mail to classic.mode.wikipedia /at/ gmail.com.
 
