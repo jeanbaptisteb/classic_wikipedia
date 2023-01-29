@@ -38,7 +38,7 @@ This add-on is compatible with Firefox versions > 52.0.
 ## Roadmap
 I will investigate reported bugs and fix them if possible. Pull requests are more than welcome relatively to that. 
 
-More features will come progressively, and might require some additional permissions as they'll probably involve saving preferences.
+More features may come progressively, depending on user requests.
 
 ## License
 The code is licensed under the [ Mozilla Public License 2.0 ](https://www.mozilla.org/en-US/MPL/2.0/).
