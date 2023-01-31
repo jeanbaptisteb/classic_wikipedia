@@ -15,7 +15,6 @@ var excludedUrls = [/(www|nostalgia|[.]m)[.]wikipedia[.]org/, /www[.]wiktionary[
 function mobileRedirect(requestDetails) {
 	currentUrl = requestDetails.url;
 	var url = new URL(currentUrl);  	
-	var isMatch = excludedUrls.some(function(rx) { return rx.test(url.hostname); });	
 	try {
 	origin = requestDetails.originUrl;
 	} catch(error) {
