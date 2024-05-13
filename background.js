@@ -1,52 +1,61 @@
 var field = "useskin";
 var value = "vector";
-let reMobile = /([.]m[.]|^m[.])/ 
+let reMobile = /([.]m[.]|^m[.])/
 let origin = null;
 var urls_scope = ["*://*.wikipedia.org/*", "*://*.wiktionary.org/*", "*://commons.wikimedia.org/*",
   "*://*.wikisource.org/*",  "*://*.wikidata.org/*", "*://*.mediawiki.org/*"
 
    ];
-var excludedUrls = [/(www|nostalgia|[.]m)[.]wikipedia[.]org/, /www[.]wiktionary[.]org/, 
-/(.*[.]m[.]|m[.])/, 
+var excludedUrls = [/(www|nostalgia|[.]m)[.]wikipedia[.]org/,
+/www[.]wiktionary[.]org/,
+/(.*[.]m[.]|m[.])/,
 /.*[.]m[.]wikimedia[.]org/,
-/commons[.]m[.]wikimedia[.]org/,
-/mobileaction=toggle_view_mobile/
-] 
+/commons[.]m[.]wikimedia[.]org/]
+
+var excludedUrlParameters = [
+/mobileaction=toggle_view_mobile/,
+/api.php/
+]
 function mobileRedirect(requestDetails) {
-	currentUrl = requestDetails.url;
-	var url = new URL(currentUrl);  	
-	try {
-	origin = requestDetails.originUrl;
-	} catch(error) {
+currentUrl = requestDetails.url;
+var url = new URL(currentUrl);  
+try {
+origin = requestDetails.originUrl;
+} catch(error) {
 
-	return currentUrl;
-	}
-	
-	if ((origin != null) && (origin.includes("useskin=vector")) && (reMobile.test(url.hostname))){
-		
-		url.searchParams.delete(field);
-		url.searchParams.delete("mobileaction");
+return currentUrl;
+}
 
-		return {
-		redirectUrl: url.toString()
-		};
-		}
+if ((origin != null) && (origin.includes("useskin=vector")) && (reMobile.test(url.hostname))){
+
+url.searchParams.delete(field);
+url.searchParams.delete("mobileaction");
+
+return {
+redirectUrl: url.toString()
+};
+}
 
 }
 function redirect(requestDetails) {
   currentUrl = requestDetails.url;    
   var url = new URL(currentUrl);    
   var isMatch = excludedUrls.some(function(rx) { return rx.test(url.hostname); });
+  var isMatch2 = excludedUrlParameters.some(function(rx) { return rx.test(url.href); });
+
   if (isMatch) {
-	return currentUrl;  
+return currentUrl;  
+  }
+  if (isMatch2) {
+return currentUrl;  
   }
   if (url.searchParams.has(field)) {
-	return currentUrl;
+return currentUrl;
   } else {
-	url.searchParams.set(field, value);
-	return {
-	redirectUrl: url.toString()
-	};
+url.searchParams.set(field, value);
+return {
+redirectUrl: url.toString()
+};
   }
 }
 browser.webRequest.onBeforeRequest.addListener(
