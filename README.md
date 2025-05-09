@@ -1,7 +1,7 @@
 # Classic mode for Wikipedia
 <a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">Classic mode for Wikipedia</a> is a Firefox add-on to get the classic Wikipedia interface and layout back, pre-January 2023. **It is free, open-source, without advertisement, and respects your privacy -and it will stay this way**. 
 
-The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki (more will come). It leaves <a href="https://nostalgia.wikipedia.org">Nostalgia Wikipedia</a> untouched. The add-on can be installed from  **<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">here</a>**. 
+The add-on also works with other Wikimedia projects: Wikimedia Commons, Wiktionary, Wikisource, Wikidata.org, and MediaWiki. It leaves <a href="https://nostalgia.wikipedia.org">Nostalgia Wikipedia</a> untouched. The add-on can be installed from  **<a href="https://addons.mozilla.org/firefox/addon/classic-wikipedia/">here</a>**. 
 
 Feel free to write a review on the Mozilla add-on page if you find it useful or, God forbid, if you encountered problems using it.
 
@@ -16,18 +16,20 @@ Feel free to write a review on the Mozilla add-on page if you find it useful or,
 * [Author info](#author-info)
 ## Bug reports and feature requests
 For any bug report, feature request, or question, you can, alternatively:
-- write me an e-mail at classic.mode.wikipedia /at/ gmail.com 
 - <a href="https://github.com/jeanbaptisteb/classic_Wikipedia/issues">file a bug report or feature request</a> on Github if you're familiar with that. 
-- write a comment under the Mozilla discourse <a href="https://discourse.mozilla.org/t/support-classic-mode-for-wikipedia/110245/2">dedicated thread</a>.
+- write a comment under the Mozilla discourse <a href="https://discourse.mozilla.org/t/support-classic-mode-for-wikipedia/110245/2">dedicated thread</a> (note that I check this thread much less frequently than the Github issue reports, so I advise you to use the issue tracker instead).
 
 ## Technical details
 The extension automatically appends a `useskin=vector` parameter to any Wikipedia page URL you request, and automatically loads this new URL.
 
 For example, if you request https://en.wikipedia.org/wiki/Logistic_regression, you'll automatically land on https://en.wikipedia.org/wiki/Logistic_regression?useskin=vector, which will show you the page with the classic Wikipedia interface (a.k.a. the "[legacy Vector skin](https://www.mediawiki.org/wiki/Skin:Vector)", in Wikipedia jargon). 
 
- The only exceptions to that are Nostalgia Wikipedia, or if you explicitly request another layout by changing the value in `useskin=<value>`, or if you request explicitly to see the mobile version of a page (e.g. https://en.m.wikipedia.org/wiki/Logistic_regression).
+The only exceptions to that are:
+- Nostalgia Wikipedia, which is left untouched;
+- or if you explicitly request another layout by changing the value in `useskin=<value>`;
+- or if you request explicitly to see the mobile version of a page (e.g. https://en.m.wikipedia.org/wiki/Logistic_regression).
 
-For more details on how the add-on works, you can simply check the source code which is publicly available. Alternatively, you can ask for additional information [here](https://github.com/jeanbaptisteb/classic_Wikipedia/issues) or by writing an e-mail to classic.mode.wikipedia /at/ gmail.com.
+For more details on how the add-on works, you can simply check the source code which is publicly available. Alternatively, you can ask for additional information [here](https://github.com/jeanbaptisteb/classic_Wikipedia/issues).
 
 ## Privacy
 You don't need to have a Wikipedia account to use this add-on. The add-on does not retrieve any information about you and never will. It just automatically redirects you to the classic version of Wikipedia pages with as little friction as possible. Nothing more, nothing less. 
@@ -38,7 +40,9 @@ This add-on is compatible with Firefox versions > 52.0.
 ## Roadmap
 I will investigate reported bugs and fix them if possible. Pull requests are more than welcome relatively to that. 
 
-More features may come progressively, depending on user requests.
+More features may come progressively, depending on user requests. 
+
+Adding support for more Wiki websites will display a permission pop-up to current users, which may come as an annoyance to them. In the past, a non-negligible part of users stopped using the add-on when I added support for new Wiki websites. Therefore, requests for adding new websites should be supported by compelling reasons, e.g. many users needing and requesting it. As an alternative, I'd encourage you to fork the project in order to support the other websites you are interested in; this should just be a couple of lines of code to amend.
 
 ## License
 The code is licensed under the [ Mozilla Public License 2.0 ](https://www.mozilla.org/en-US/MPL/2.0/).
